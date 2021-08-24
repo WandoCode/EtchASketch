@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(231, 155, 101);
+    height: 100vh;
+}
+.main-container{
+    display: flex;
+    flex-flow: row wrap;
+    height: 960px;
+    width: 960px;
+    background-color: white;
+}
+.grid-container{
+    flex-grow: 1;
+}
+
+#reset{
+    height: 45px;
+    width: 150px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

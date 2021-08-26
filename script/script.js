@@ -7,7 +7,7 @@ const btnGray = document.getElementById("grayscale");
 const btnShade = document.getElementById("shadding");
 const btnBlack = document.getElementById("black");
 
-let colorMode = "black";
+let colorMode = "";
 let shadding = false;
 let nbrElemSide = 50;
 
@@ -176,14 +176,6 @@ function changeShadding(event) {
     else{
         btn.classList.add("active");
     }
-
-    if (shadding == true){
-        /* set other buttons inactive and remove the color mode*/
-        inactiveBtn();
-        colorMode = "";
-    }
-    
-    
 }
 
 function inactiveBtn() {
